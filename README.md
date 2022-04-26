@@ -19,6 +19,10 @@ npm install -g ndooe-clean
 
 ## 使用
 ```
+
+# 重点 先执行
+npm install -g rimraf
+
 # 查看帮助
 ndooe-clean -h
 
