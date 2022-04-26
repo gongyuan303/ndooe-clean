@@ -1,0 +1,31 @@
+{
+  "name": "ndooe-clean",
+  "version": "1.0.0",
+  "description": "一个批量安装、删除、更新 node_modules 依赖的命令行工具",
+  "main": "src/index.js",
+  "bin": {
+    "nc": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/gongyuan303/ndooe-clean"
+  },
+  "keywords": [
+    "cli",
+    "pkg",
+    "package",
+    "npm"
+  ],
+  "author": "GongYuan303",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "glob": "^7.2.0",
+    "inquirer": "^8.2.0",
+    "rimraf": "^3.0.2",
+    "yargs": "16"
+  }
+}

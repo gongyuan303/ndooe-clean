@@ -1,0 +1,12 @@
+这是一个批量安装、删除、更新 node_modules 依赖的命令行工具，当然你也可以自定义指令批量执行!
+Usage: nc <command> [options]
+
+Commands：
+  nc install -d [dir] -yml [yml-file]     安装依赖，默认当前目录，可指定目录，可使用 yml 文件配置
+  nc remove -d [dir]  -yml [yml-file]     删除依赖，默认当前目录，可指定目录，可使用 yml 文件配置        
+  nc update -d [dir]  -yml [yml-file]     更新依赖，默认当前目录，可指定目录，可使用 yml 文件配置
+  nc sh command -d [dir]  -yml [yml-file] 自定义执行 shell 命令
+
+Options：
+  --help      
+  --version  
