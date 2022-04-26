@@ -20,12 +20,12 @@ npm install -g ndooe-clean
 ## 使用
 ```
 # 查看帮助
-nc -h
+ndooe-clean -h
 
 # 递归删除特定目录下的所有 node_modules
-nc remove -d dir_path
+ndooe-clean remove -d dir_path
 
 # 递归安装特定目录下的所有项目（带 package.json 文件的目录）
-nc install -d dir_path
+ndooe-clean install -d dir_path
 
 ```
